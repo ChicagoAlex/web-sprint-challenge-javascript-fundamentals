@@ -28,9 +28,15 @@ myFunction();
     
 For example, `summation(4)` should return 10 because 1+2+3+4 is 10. Note, you may use a for loop for this function if you wish */
 
-function summation(/*code goes here*/) {
-// code goes here
+function summation(num) {
+var count = 0;
+for(let i = 0; i <= num; i++){
+  count = count + i;
+  console.log(count)
+}
+return count
   }
+  console.log('task2', summation(4));
  
 
 // 🦁🦁🦁 Topic 2: ADVANCED Array Methods 🦁🦁🦁
